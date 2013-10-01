@@ -1,18 +1,31 @@
-.row
-  .large-11.larg-centered.columns
-    %h2.pull-left
-      =t('headings.landing_tagline')
+/ .row
+/   .large-11.larg-centered.columns
+/     %h2.pull-left
+/       =t('headings.landing_tagline')
 
 #landing-hero
-.row
-  .large-11.larg-centered.columns#landing-bottom-content
-    %h4
-      =t('headings.landing_description')
-    #art-count
-      %h6
-        Currently Curating
-        %span#art-count-number
-        Works of Public Street Art and Counting...
+/ .row
+/   .large-11.larg-centered.columns#landing-bottom-content
+/     %h4
+/       =t('headings.landing_description')
+/     #art-count
+/       %h6
+/         Currently Curating
+/         %span#art-count-number
+/         Works of Public Street Art and Counting...
+
+.landing-bottom-container
+  .landing-bottom-content
+    .lander-icon.pull-left
+      %h3
+        Plan Your Route
+    .lander-icon.pull-left
+      %h3
+        Invite Your Friends
+    .lander-icon.pull-left
+      %h3
+        Track Your Results
+
 
 :javascript
   $(document).ready(function() {

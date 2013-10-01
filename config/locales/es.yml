@@ -6,7 +6,7 @@ es:
     art_title: 'Titulo:'
     art_comment: 'Observacion:'
     art_artist: 'Artista:'
-    add_photo: 'Sube tus fotos:'
+    add_photo: 'Añadir foto:'
     landing_tagline: 'Descubre un sentido de lugar ...'
     landing_description: 'Documentar y descubrir el arte público en su comunidad y en todo el mundo!'
   nav:
