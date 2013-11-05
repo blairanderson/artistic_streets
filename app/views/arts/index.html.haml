@@ -4,8 +4,8 @@
   .search-bar
     = text_field_tag 'location', nil, placeholder: "#{t('placeholders.map_search')}", id: "address"
     = link_to "#{t('nav.find')}", "#", id: "go-to-address", class: "custom-button-small"
-    =link_to "#{t('nav.gallery')}", '#' , class: "custom-button-small", id: "activate-gallery"
-    =link_to "#{t('nav.map')}", '#', class: "custom-button-small", id: 'activate-map'
+    = link_to "#{t('nav.gallery')}", '#' , class: "custom-button-small", id: "activate-gallery"
+    = link_to "#{t('nav.map')}", '#', class: "custom-button-small", id: 'activate-map'
   #map_canvas
   .gallery
     -@images.each do |image|

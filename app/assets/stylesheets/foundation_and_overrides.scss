@@ -1053,6 +1053,7 @@ html > body {
   @include alert-base;
   @include alert-style;
   .close { @include alert-close; }
+  margin-top: 1.4em;
 }
 h1 {
   text-align:center;
@@ -1078,7 +1079,8 @@ h3 {
   width: 100%;
 }
 #map_canvas {
-  height: 550px;
+  margin-top: 1%;
+  height: 700px;
   width: 100%;
   z-index: -1;
 }
@@ -1147,11 +1149,16 @@ h3 {
   left: 0;
   position: fixed;
 }
-.main-body {
+.flash-body {
   width: 80%;
   float: right;
-  margin-top: 2.5%;
-  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.main-body {
+  width: 80%;
+  height: 100%;
+  float: right;
+  margin-top: 0px;
 }
 .top-bar {
   overflow: hidden;
@@ -1333,24 +1340,28 @@ body.off-canvas { padding: 0; margin: 0; }
   position: absolute;
   margin-top: 3%;
   margin-left: 25%;
-  background: whitesmoke;
-  padding: .25%;
+  background: white;
   width: 60%;
   z-index: 12;
   opacity: .96;
   -webkit-box-shadow: 4px 6px 10px 0px #AAAAAA;
+  border-radius: 2px;
 }
 
 #activate-map {
   float: right;
   margin-right: 1%;
-  margin-top: 18px;
+  margin-top: 17px;
   margin-bottom: 0px;
 }
 
 #activate-gallery {
   float: right;
-  margin-top: 18px;
+  margin-top: 17px;
   margin-bottom: 0px;
   margin-right: 2.5%;
+}
+
+#go-to-address {
+  margin-top: 17px;
 }
